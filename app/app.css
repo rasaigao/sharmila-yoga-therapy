@@ -1,5 +1,5 @@
 /* app css stylesheet */
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400, 200|Raleway');
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -22,4 +22,37 @@
 .menu > li + li:before {
   content: "|";
   padding-right: 0.3em;
+}
+
+.main-header {
+	color: #e87700;
+	text-align: center;
+}
+#main-title {
+	font-size: 3em;
+	margin: 0.25em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+}
+#sub-title {
+	font-size: 2em;
+	margin: 0.25em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 200;
+	color: #777;
+
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+.blog-author, .blog-date {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 0.5em;
+}
+#made-by-text {
+	font-size: 0.75em;
+	color: #e87700;
+	padding-bottom: 0.75em;
+	text-align: center;
 }

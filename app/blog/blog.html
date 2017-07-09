@@ -1,0 +1,22 @@
+<header class="header-image" ng-controller="blogCtrl">
+        <div class="headline">
+            <div class="container">
+                <h1>{{title}}</h1>
+                <h2>{{subheader}}</h2>
+            </div>
+        </div>
+</header>
+<div class="container" ng-controller="blogCtrl" >
+	<div ng-repeat="blog in blogs">
+            <!-- First Featurette -->
+            <div class="featurette" id="about">
+                <h2 class="featurette-heading">{{blog.title}} <br>
+
+                    <span class="blog-author">{{blog.author}} | </span>
+                    <span class="blog-date">{{blog.date}}</span>
+       			</h2>
+                <p class="lead">{{blog.text}}</p>
+            </div>
+        <hr class="featurette-divider">
+        </div>
+</div>
